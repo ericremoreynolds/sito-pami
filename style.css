@@ -1,0 +1,51 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+}
+
+body {
+    background-image: url("background.jpeg");
+    color: #2C231C;
+    font-family: 'Open Sans', sans-serif;
+
+    /*
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+.header {
+    text-align: center;
+}
+
+.languages {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.container {
+    /*text-align: center;*/
+    width: 800px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+.contatti {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
